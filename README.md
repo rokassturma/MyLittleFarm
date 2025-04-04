@@ -13,7 +13,10 @@ My Little Farm is a small React-based interactive app, where cows and sheep swit
 - 🔢 Unique ID generated for every animal
 
 ---
+## 📸 Preview
 
+![My Little Farm demo](./farm-preview.gif)
+---
 ## 🛠️ Built with
 
 - React
