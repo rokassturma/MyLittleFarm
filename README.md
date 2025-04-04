@@ -22,7 +22,17 @@ My Little Farm is a small React-based interactive app, where cows and sheep swit
 - CSS
 
 ---
+📚 What I learned: 
 
+- React state management with useState
+
+- Generating random data (IDs, animal count)
+
+- Event handling and filtering
+
+- Data persistence with localStorage
+
+---
 ## 🚀 How to run locally
 
 ```bash
@@ -30,14 +40,6 @@ npm install
 npm run dev
 
 
-📚 What I learned: 
 
-React state management with useState
-
-Generating random data (IDs, animal count)
-
-Event handling and filtering
-
-Data persistence with localStorage
 
 
