@@ -1,12 +1,49 @@
-# React + Vite
+# 🐄 My Little Farm
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+My Little Farm is a small React-based interactive app, where cows and sheep switch sides in a pasture. It's built using state management, `localStorage`, and dynamic rendering logic.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🐑 Cows on the left, sheep on the right
+- 🖱 Click an animal to move it to the other side
+- 💾 Animal state is saved to `localStorage`
+- 🎨 Simple, colorful UI with shapes
+- 🔢 Unique ID generated for every animal
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+## 📸 Preview
+
+![My Little Farm demo](MyLittleFarm.gif)
+
+---
+## 🛠️ Built with
+
+- React
+- Vite
+- JavaScript
+- CSS
+
+---
+📚 What I learned: 
+
+- React state management with useState
+
+- Generating random data (IDs, animal count)
+
+- Event handling and filtering
+
+- Data persistence with localStorage
+
+---
+## 🚀 How to run locally
+
+```bash
+npm install
+npm run dev
+
+
+
+
+
