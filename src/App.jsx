@@ -26,6 +26,10 @@ function App() {
   const leftAnimals = animals.filter(a => a.side === 'left');
   const rightAnimals = animals.filter(a => a.side === 'right');
 
+  const clear = () => {
+    setAnimals([]);
+  }
+
   return (
     <>
       <h1>My Little Farm project: Cows and Sheeps</h1>
@@ -54,6 +58,7 @@ function App() {
         </div>
       </div>
       <button onClick={generate}>To the Farm</button>
+      <button className="clear" onClick={clear}>Clear</button>
     </>
   );
 }
